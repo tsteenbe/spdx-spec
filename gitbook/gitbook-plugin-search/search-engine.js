@@ -1,6 +1,6 @@
-require([ &
-    apos;gitbook & apos;, &
-    apos;jquery & apos;
+require([
+    'gitbook',
+    'jquery'
 ], function(gitbook, $) {
     // Global search objects
     var engine = null;
@@ -13,16 +13,16 @@ require([ &
     }
     // Initialize search engine with config
     function init(config) {
-        if (!engine) throw new Error( & apos; No engine set for research.Set an engine using gitbook.research.setEngine(Engine). & apos;);
+        if (!engine) throw new Error('No engine set for research. Set an engine using gitbook.research.setEngine(Engine).');
         return engine.init(config)
             .then(function() {
                 initialized = true;
-                gitbook.events.trigger( & apos; search.ready & apos;);
+                gitbook.events.trigger('search.ready');
             });
     }
     // Launch search for query q
     function query(q, offset, length) {
-        if (!initialized) throw new Error( & apos; Search has not been initialized & apos;);
+        if (!initialized) throw new Error('Search has not been initialized');
         return engine.search(q, offset, length);
     }
     // Get stats about search

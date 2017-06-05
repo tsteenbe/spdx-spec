@@ -77,12 +77,7 @@
     font-family: Georgia, serif;
 }
 .book.font-family-1 {
-    font-family: &quot;
-    Helvetica Neue&quot;
-    ,
-    Helvetica,
-    Arial,
-    sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal {
     color: #704214;
@@ -242,8 +237,7 @@
 .book.color-theme-1 .book-summary ul.summary li i.fa-check {
     color: #33cc33;
 }
-.book.color-theme-1 .book-summary ul.summary li.done &gt;
-a {
+.book.color-theme-1 .book-summary ul.summary li.done>a {
     color: #877f6a;
 }
 .book.color-theme-1 .book-summary ul.summary li a,
@@ -252,8 +246,7 @@ a {
     background: transparent;
     font-weight: normal;
 }
-.book.color-theme-1 .book-summary ul.summary li.active &gt;
-a,
+.book.color-theme-1 .book-summary ul.summary li.active>a,
 .book.color-theme-1 .book-summary ul.summary li a:hover {
     color: #704214;
     background: transparent;
@@ -281,8 +274,7 @@ a,
 .book.color-theme-2 .book-summary ul.summary li i.fa-check {
     color: #33cc33;
 }
-.book.color-theme-2 .book-summary ul.summary li.done &gt;
-a {
+.book.color-theme-2 .book-summary ul.summary li.done>a {
     color: #62687f;
 }
 .book.color-theme-2 .book-summary ul.summary li a,
@@ -291,8 +283,7 @@ a {
     background: transparent;
     font-weight: 600;
 }
-.book.color-theme-2 .book-summary ul.summary li.active &gt;
-a,
+.book.color-theme-2 .book-summary ul.summary li.active>a,
 .book.color-theme-2 .book-summary ul.summary li a:hover {
     color: #f4f4f5;
     background: #252737;
