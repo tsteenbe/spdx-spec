@@ -1,0 +1,11 @@
+# GitBook directory and generated docs
+_book/
+*.epub
+*.mobi
+*.pdf
+
+# Build directory
+build/
+
+# nodeJS
+node_modules/
