@@ -19,8 +19,7 @@ figcaption {
 #book-search-input {
     border-bottom: 3px solid #4597cb;
 }
-.book-summary ul.summary li.active&gt;
-a {
+.book-summary ul.summary li.active>a {
     color: #4597cb;
 }
 .book-summary ul.summary li a.gitbook-link {
