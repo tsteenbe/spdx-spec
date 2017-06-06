@@ -9,8 +9,8 @@
     <meta name="generator" content="GitBook 3.2.2">
     <meta name="author" content="Linux Foundation and its Contributors">
     <meta name="DC.source" content="https://github.com/spdx/spdx-spec">
-    <meta name="DC.identifier" content="#9bc352e">
-    <meta name="DC.date.created" content="2017-06-06T17:33:05.538Z">
+    <meta name="DC.identifier" content="#4c96b10">
+    <meta name="DC.date.created" content="2017-06-06T21:04:20.680Z">
     <meta name="DC.rights" content="SPDX-License-Identifier: CC-BY-3.0">
     <link rel="stylesheet" href="../gitbook/style.css">
     <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
@@ -122,8 +122,9 @@
                     <li class="divider"></li>
                     <li>
                         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
+                            <div class="spdx-logo"><img src="../img/logo-spdx-250.png"></div>
+                            Published with GitBook
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -162,7 +163,7 @@
     &lt;annotator&gt; Person: Jane Doe () &lt;/annotator&gt;
 &lt;/Annotations&gt;
 </code></pre>
-                                    <h1 id="82-annotation-date">8.2 Annotation Date</h1>
+                                    <h2 id="82-annotation-date">8.2 Annotation Date</h2>
                                     <p><strong>8.2.1</strong> Purpose: Identify when the comment was made. This is to be specified according to the combined date and time in the UTC format, as specified in the ISO 8601 standard.</p>
                                     <p><strong>8.2.2</strong> Intent: Here, the Annotation Date can serve as a verification as to when the actual review was done.</p>
                                     <p><strong>8.2.3</strong> Cardinality: Conditional (Mandatory, one), if there is an Annotation.</p>
@@ -188,7 +189,7 @@
     &lt;annotationDate&gt; 2010-01-29T18:30:22Z &lt;/annotation Date&gt;
 &lt;/Annotation&gt;
 </code></pre>
-                                    <h1 id="83-annotation-type">8.3 Annotation Type</h1>
+                                    <h2 id="83-annotation-type">8.3 Annotation Type</h2>
                                     <p><strong>8.3.1</strong> Purpose: This field describes the type of annotation. Annotations are usually created when someone reviews the file, and if this is the case the annotation type should be REVIEW. If the author
                                         wants to store extra information about one of the elements during creation, it is recommended to use the type of OTHER.</p>
                                     <p><strong>8.3.2</strong> Intent: This allows the type of annotation to be recorded.</p>
@@ -204,7 +205,7 @@
     &lt;spdx:annotationType rdf:resource=&quot;http://spdx.org/rdf/terms#annotationType_other&quot;/&gt;
 &lt;/Annotation&gt;
 </code></pre>
-                                    <h1 id="84-spdx-identifier-reference">8.4 SPDX Identifier Reference</h1>
+                                    <h2 id="84-spdx-identifier-reference">8.4 SPDX Identifier Reference</h2>
                                     <p><strong>8.4.1</strong> Purpose: Uniquely identify the element in an SPDX document which is being referenced. These may be referenced internally and externally with the addition of the SPDX Document Identifier.</p>
                                     <p><strong>8.4.2</strong> Intent: There may be several versions of the same package or file within an SPDX document. Each element needs to be able to be referred to uniquely so that relationships between elements can be
                                         clearly articulated.</p>
@@ -230,7 +231,7 @@
     &lt;/annotation&gt;
 &lt;/SpdxElement rdf:about=&#x201D;#SPDXRef-45&#x201D;&gt;
 </code></pre>
-                                    <h1 id="85-annotation-comment">8.5 Annotation Comment</h1>
+                                    <h2 id="85-annotation-comment">8.5 Annotation Comment</h2>
                                     <p><strong>8.5.1</strong> Purpose: This optional free form text field permits the annotator to provide commentary on the analysis.</p>
                                     <p><strong>8.5.2</strong> Intent: This allows the annonator to provide independent assessment and note any points where there is disagreement with the analysis.</p>
                                     <p><strong>8.5.3</strong> Cardinality: Conditional (Mandatory, one), if there is an Annotation.</p>
@@ -437,12 +438,12 @@ but the concluded license is one of the options.&lt;/text&gt;
                     },
                     "file": {
                         "path": "chapters/8-annotations.md",
-                        "mtime": "2017-06-06T16:08:05.000Z",
+                        "mtime": "2017-06-06T20:26:08.000Z",
                         "type": "markdown"
                     },
                     "gitbook": {
                         "version": "3.2.2",
-                        "time": "2017-06-06T17:32:59.850Z"
+                        "time": "2017-06-06T21:04:15.607Z"
                     },
                     "basePath": "..",
                     "book": {

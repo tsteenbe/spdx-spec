@@ -9,8 +9,8 @@
     <meta name="generator" content="GitBook 3.2.2">
     <meta name="author" content="Linux Foundation and its Contributors">
     <meta name="DC.source" content="https://github.com/spdx/spdx-spec">
-    <meta name="DC.identifier" content="#9bc352e">
-    <meta name="DC.date.created" content="2017-06-06T17:33:05.367Z">
+    <meta name="DC.identifier" content="#4c96b10">
+    <meta name="DC.date.created" content="2017-06-06T21:04:20.485Z">
     <meta name="DC.rights" content="SPDX-License-Identifier: CC-BY-3.0">
     <link rel="stylesheet" href="../gitbook/style.css">
     <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
@@ -122,8 +122,9 @@
                     <li class="divider"></li>
                     <li>
                         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
+                            <div class="spdx-logo"><img src="../img/logo-spdx-250.png"></div>
+                            Published with GitBook
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -253,7 +254,7 @@
                                     <p><strong>5.4.3</strong> Cardinality: Optional, one.</p>
                                     <p><strong>5.4.4</strong> Data Format: number1:number2</p>
                                     <p>where:</p>
-                                    <p>number1 is greater than or equal to 1 and less than or equal to number2,<br>AND number2 is less than or equal to the total number of lines in file.</p>
+                                    <p>number1 is greater than or equal to 1 and less than or equal to number2, AND number2 is less than or equal to the total number of lines in file.</p>
                                     <p><strong>5.4.5</strong> Tag: <code>SnippetLineRange:</code></p>
                                     <p>Example:</p>
                                     <pre><code>SnippetLineRange: 5:23
@@ -293,7 +294,7 @@
                                     <p>(i) the SPDX document creator has attempted to, but cannot reach a reasonable objective determination of the Concluded License;</p>
                                     <p>(ii) the SPDX document creator is uncomfortable concluding a license, despite some license information being available;</p>
                                     <p>(iii) the SPDX document creator has made no attempt to determine a Concluded License;</p>
-                                    <p>(iv) the SPDX document creator has intentionally provided no information (no meaning should be implied by doing so). </p>
+                                    <p>(iv) the SPDX document creator has intentionally provided no information (no meaning should be implied by doing so).</p>
                                     <p>If the Concluded License is not the same as the License Information in File, a written explanation should be provided in the Comments on License field (section X.5). With respect to NOASSERTION, a written explanation
                                         in the Comments on License field (section X.7) is preferred.</p>
                                     <p><strong>5.5.2</strong> Intent: Here, the intent is for the SPDX document creator to reconcile the license information known about the snippet, what license information is in the file itself and other objective information
@@ -391,7 +392,7 @@ The concluded license information was found in the COPYING.txt file in package x
     ...
 &lt;/Snippet&gt;
 </code></pre>
-                                    <h2 id="58--snippet-copyright-text">5.8 Snippet Copyright Text</h2>
+                                    <h2 id="58-snippet-copyright-text">5.8 Snippet Copyright Text</h2>
                                     <p><strong>5.8.1</strong> Purpose: Identify the copyright holder of the snippet, as well as any dates present. This will be a free form text field, ideally extracted from the actual snippet. The options to populate this
                                         field are limited to:</p>
                                     <p>any text relating to a copyright notice, even if not complete; NONE, if the file contains no copyright information whatsoever; or NOASSERTION, if the SPDX document creator has not examined the contents of the actual
@@ -638,12 +639,12 @@ when a commercial scanner identified it as being derived from file foo.c in pack
                     },
                     "file": {
                         "path": "chapters/5-snippet-information.md",
-                        "mtime": "2017-06-06T16:08:05.000Z",
+                        "mtime": "2017-06-06T20:24:09.000Z",
                         "type": "markdown"
                     },
                     "gitbook": {
                         "version": "3.2.2",
-                        "time": "2017-06-06T17:32:59.850Z"
+                        "time": "2017-06-06T21:04:15.607Z"
                     },
                     "basePath": "..",
                     "book": {
